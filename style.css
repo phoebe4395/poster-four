@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    }
+    
+    div.poster{
+        background-color: #29e2e9;
+        width: 75%;
+    }
+    
+    
+    div.container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    
+     /* Column stuff */
+    
+    div.col{
+        width: 33.33%;
+        overflow: hidden;
+        box-shadow: inset 0px 0px 20px 3px rgb(255, 255, 255);
+        
+        
+    }
+    
+     /* thirds */
+    
+    div.w1-3 {
+        width: 33.33%;
+    }
+    
+    div.w2-3 { 
+        width: 66.66%;
+    }
+    
+    div.w3-3 {
+        width: 100%;
+    }
+    
+     /* half */
+    
+     div.w1-2 {
+        width: 50%;
+    }
+    
+    div.w2-2 { 
+        width: 100%;
+    }
+    
+     /* quarters */
+    
+     div.w1-4 {
+        width: 25%;
+    }
+    
+    div.w2-4 { 
+        width: 50%;
+    }
+    
+    div.w3-4 {
+        width: 75%;
+    }
+    
+    div.w4-4 {
+        width: 100%;
+    }
+    
+    
+    div.small {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 18px;
+        
+    }
+    
+    @font-face {
+        font-family: PicNic;
+        src:PicNic url(PicNic-Regular.woff);
+    }
+    
+    div.text{
+        font-family: PicNic;
+        text-align: center;
+        text-transform: uppercase;
+       
+    }
+    
+    /* rule 1 */
+    
+    div.text.one{ 
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        
+    }
+    div.text.two { 
+        font-size: 70px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+    }
+    div.text.three { 
+        font-size: 90px;
+       
+    }
+    
+    /* rule 2 */
+    div.text.a {
+       text-shadow: 2px 2px 2px rgb(255, 0, 191); 
+    }
+    
+    div.text.b { 
+        color: aliceblue;
+    
+    }
+    
+    div.text.c{
+        color: deeppink;
+    }
+    
+    
+    /* rule 3 */
+    div.text.x {
+        background-color: #29e2e9; 
+        
+        
+    }
+    
+    div.text.y { 
+        background-color: blueviolet;
+       
+    }
+    
+    div.text.z { 
+        background-color: darkblue;
+        
+    }
+    
+    
+
+    
+    
